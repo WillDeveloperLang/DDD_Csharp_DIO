@@ -1,0 +1,474 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.API\\RestApiModeloDDD.API.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.API\\RestApiModeloDDD.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.API\\RestApiModeloDDD.API.csproj",
+        "projectName": "RestApiModeloDDD.API",
+        "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.API\\RestApiModeloDDD.API.csproj",
+        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj",
+        "projectName": "RestApiModeloDDD.Application",
+        "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj",
+        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj": {
+                "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj",
+        "projectName": "RestApiModeloDDD.Domain.Core",
+        "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj": {
+                "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj",
+        "projectName": "RestApiModeloDDD.Domain.Services",
+        "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj": {
+                "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj",
+        "projectName": "RestApiModeloDDD.Domain",
+        "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj",
+        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj",
+        "projectName": "RestApiModeloDDD.Infrastructure",
+        "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj": {
+                "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj"
+              },
+              "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj": {
+                "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Core\\RestApiModeloDDD.Domain.Core.csproj"
+              },
+              "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj": {
+                "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj"
+              },
+              "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj": {
+                "projectPath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain\\RestApiModeloDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

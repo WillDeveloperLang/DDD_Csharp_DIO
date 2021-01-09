@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "h4g+LqPN25hKrbaQIJM9EPk6Uz/4dag/XsLwvWFRHOQBOsEbei03mQr4y1dTj8PiR71xXtXsMovCILuKHME+uQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\simon\\Downloads\\DDD-C-main\\DDD-C-main\\DDD- C#\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simon\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\simon\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\simon\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
